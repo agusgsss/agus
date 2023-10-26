@@ -1,0 +1,174 @@
+.slider h3, .slider h5 {
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+.clients h3 {
+    text-shadow: 1px 1px 3px rgba(0,0,0,.5);
+}
+
+
+.nav-wrapper .brand-logo {
+    font-size: 23px;
+    line-height: 63px;
+}
+
+.about img {
+    border-radius: 20%;
+    margin-top: 20px;
+}
+.about .about-title {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.about .about-title-cv {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.about-p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.parallax-container {
+    height: 20%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: .5 !important;
+}
+
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 3px rgba(0,0,0,.5));
+}
+
+.services .card-panel li {
+    margin-bottom: 28px;
+}
+.services .card-panel p {
+    margin-bottom: -8px;
+    text-align: justify;
+}
+
+.portfolio p {
+    text-align: justify;
+}
+
+.portfolio ol li {
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.portfolio ol li p {
+    font-weight: 300;
+}
+
+/* .contact p {
+    text-align: justify;
+}
+
+.contact hr {
+    background-color: white;
+    opacity: .8;
+} */
+
+section, footer {
+    padding: 20px 0px;
+}
+footer {
+    text-align: justify;
+}
+footer .maps {
+    margin-top: 13px;
+}
+footer .alamat {
+    padding-right: 20px !important;
+}
+footer iframe {
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+}
+.footer-copyright {
+    padding: 10px;
+    text-align: center;
+}
+/* .contact iframe {
+    margin: -15px auto;
+} */
+
+
+/* portofolio project */
+.card-action a, .head h5 {
+    text-transform: lowercase !important;
+    font-weight: 500;
+}
+.card-action a:hover {
+    /* text-decoration: underline; */
+    opacity: .85;
+}
+.card-action p {
+    display: inline;
+}
+.card-content h6 {
+    line-height: 25px;
+}
+
+
+.tabs .tab a, .tabs .tab a.active {
+    color:#000;
+    font-weight: 500;
+    font-size: 20px;
+}
+.tabs .tab a:hover {
+    background-color:#eee;
+    color:#000;
+}
+.tabs .tab a:focus.active {
+    background-color:#eee !important;
+    color:#000 !important;
+}
+.tabs .indicator {
+    background-color:#000;
+}
+
+
+/* bootcamp & class */
+.bootcamp .tabs .tab a, .bootcamp .tabs .tab a.active {
+    color:#000;
+    font-weight: 500;
+    font-size: 20px;
+}
+.bootcamp .tabs .tab a:hover {
+    background-color:rgb(255, 254, 254);
+    color:#000;
+}
+.bootcamp .tabs .tab a:focus.active {
+    background-color:rgb(255, 255, 255) !important;
+    color:#000 !important;
+}
+.bootcamp .tabs .indicator {
+    background-color:#000;
+}
+/* .card {
+    position: relative;
+}
+
+.card .card-stacked {
+    position: absolute;
+    right: 0px;
+} */
+
+
+.bootcamp .card-content a {
+    font-size: 13px;
+    text-transform: lowercase;
+}
+.bootcamp .card-content {
+    padding: 12px;
+}
+.bootcamp .card-content p {
+    margin-top: 8px;
+}

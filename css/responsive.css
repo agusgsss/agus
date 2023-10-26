@@ -1,0 +1,50 @@
+/* > 1200 */
+@media(min-width:1200px) {
+    .container {
+        width: 75%;
+    }
+    .contact iframe {
+        width: 350px;
+        height: 170px;
+    }
+}
+
+/* 850 - 1199 */
+@media (min-width:850px) and (max-width:1199px) {
+    .container {
+        width: 85%;
+    }
+    .contact iframe {
+        width: 240px;
+        height: 150px;
+    }
+}
+
+/* 601 - 549 */
+@media(max-width:849px) {
+    .contact iframe {
+        width: 180px;
+        height: 120px;
+        
+    }
+}
+
+/* < 600 */
+@media(max-width:600px) {
+    .contact iframe {
+        width: 400px;
+        height: 200px;
+    }
+}
+@media(max-width:500px) {
+    .contact iframe {
+        width: 320px;
+        height: 200px;
+    }
+}
+@media(max-width:400px) {
+    .contact iframe {
+        width: 220px;
+        height: 120px;
+    }
+}
